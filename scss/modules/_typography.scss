@@ -1,0 +1,26 @@
+/*Typography:
+.container
+.link
+.blockquote
+.headline--primary
+.headline--secondary
+*/
+
+.headline {
+  @include m(primary) {
+    @extend %headline-prim;
+    margin-left: em(20px);
+    margin-right: em(40px);
+  }
+  @include m(secondary) {
+    @extend %headline-sec;
+  }
+}
+
+.link {
+  @extend %link;
+}
+
+.blockquote {
+  @extend %blockquote;
+}

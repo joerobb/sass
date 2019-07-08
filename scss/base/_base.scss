@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  font-family: $font-family--primary;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 1.5em;
+	}
+
+
+ul {
+	list-style: none;
+}
+
+p {
+  color: $grey;
+  font-size: $font-size--medium;
+  font-weight: $font-weight--light;
+  padding: 1em;
+  letter-spacing: $letter-space;
+}

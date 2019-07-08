@@ -1,0 +1,21 @@
+/*Buttons:
+.btn--default
+.btn--success
+.btn--error
+.btn--warning
+.btn--info
+.theme__colors
+*/
+
+.btn {
+  @include colours($themes);
+}
+  [class^="btn--"] {
+  @extend %center-align;
+  @extend %btn;
+  margin-bottom: em(20px, 15px);
+  @include mq(medium) {
+    @include doubly(15px);
+
+}
+}
